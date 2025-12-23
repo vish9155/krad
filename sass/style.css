@@ -3395,7 +3395,8 @@ footer.site-footer .bottom-footer p {
   text-align: center;
   padding-top: 105px;
   padding-bottom: 50px;
-  background: #000 url(../img/inner-banner-1-1.jpg) center center no-repeat;
+  background: #000 url(https://img.freepik.com/free-psd/travel-tourism-facebook-cover-banner-template_120329-5869.jpg?semt=ais_hybrid&w=740&q=80) center center no-repeat;
+  height: 600px;
   background-size: cover;
 }
 .inner-banner h3, .inner-banner ul {
