@@ -1,0 +1,141 @@
+
+
+.triangle1 {
+ 
+  animation: mover 800ms infinite alternate;
+}
+
+
+
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+.triangle2 {
+
+  animation: mover2 1000ms infinite alternate;
+}
+
+
+
+@keyframes mover2 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+
+
+.triangle3 {
+ 
+  animation: mover3 1.1s infinite alternate;
+}
+
+
+
+
+@keyframes mover3 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+
+
+
+
+.triangle4{
+ 
+  animation: mover 800ms infinite alternate;
+}
+
+
+
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+.triangle5 {
+
+  animation: mover2 1000ms infinite alternate;
+}
+
+
+
+@keyframes mover2 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+
+
+.triangle6 {
+ 
+  animation: mover3 1.1s infinite alternate;
+}
+
+
+
+
+@keyframes mover3 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+} */
+
+
+
+

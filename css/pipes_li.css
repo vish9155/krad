@@ -21,31 +21,100 @@
 box-shadow:
   rgba(255, 0, 0, 0.35) 0px 12px 28px,
   rgba(201, 75, 7, 0.25) 0px 8px 8px;
+   cursor: pointer;
+  
  }
 
 
 
  .card{
-    margin-top: 20px ;
-    border: 2px solid #eb5008 !important;
-    border-radius: 50px !important;
-    height: 35rem;
-   padding: 20px;
-   text-align: center;
- 
+
+  width: 220px;
+  height: 220px;
+  background: linear-gradient( #eb5008, #ff8c42);
+  transform: rotate(45deg);
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+    box-shadow:
+    -12px -12px 25px rgba(255, 255, 255, 0.25), /* highlight */
+     12px  12px 30px rgba(0, 0, 0, 0.45),        /* depth */
+     0px   25px 40px rgba(0, 0, 0, 0.4);    
+
+     
+
+
  }
 
- .pipes:hover{
 
+
+  /* .card:hover {
+      box-shadow:
+    rgba(255, 0, 0, 0.35) 0px 12px 28px,
+    rgba(201, 75, 7, 0.25) 0px 8px 8px;
+   
+
+    border: 2px solid red !important;
+    transform: scale(1.05);
+  background-color: #eb5008;
+
+    cursor: pointer;
+.mid-card{
+    color: white;
   transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+
+};
+
+.card-text-align{
+  color: white;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.5);
 
 
+}; */
 
-
-
+.card-title{
+  color: white !important;
  }
 
 
+  
 
- 
 
+
+  th,td{
+    padding: 10px;
+  }
+tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+
+  tbody tr:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: all 0.3s ease-in-out;
+  }
+
+ thead th:hover {
+   background-color: rgba(243, 5, 5, 0.642);
+   color: white;
+    transition: all 0.3s ease-in-out;
+ }
+
+ .card-text-align{
+
+  text-align: center;
+  padding: 60px;
+ }
+
+.card-body{
+
+  transform: rotate(-45deg);
+
+}

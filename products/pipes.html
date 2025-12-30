@@ -82,6 +82,9 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
     <link rel="stylesheet" href="/css/pipes_li.css" />
+    <link rel="stylesheet" href="/css/card_animation.css" />
+    <link rel="stylesheet" href="/css/product_responsive.css" />
+    <!-- <link rel="stylesheet" href="/css/product_responsive.css"> -->
   </head>
   <body class="_active-preloader-ovh">
     <div class="preloader"><div class="spinner"></div></div>
@@ -92,7 +95,7 @@
         <div class="top-info">
           <div class="container">
             <div class="pull-left left-text">
-              <p>Welcome to  <span>KRAD GLOBAL!</span></p>
+              <p>Welcome to <span>KRAD GLOBAL!</span></p>
             </div>
             <!-- /.pull-left -->
             <div class="pull-right social">
@@ -191,42 +194,36 @@
                 <li><a href="/about.html">About</a></li>
                 <li>
                   <a href="">Our Products</a>
-                  <ul class="sub-menu">
+                  <ul class="sub-menu dropdown-item">
                     <li>
-                      <a href="#">Piping Solutions</a>
-                      <ul class="sub-menu dropdown-item">
-                        <li><a href="/products/pipes.html">Pipes</a></li>
-                        <li><a href="/products/fittings.html">Fittings</a></li>
-                        <li><a href="/products/flanges.html">Flanges</a></li>
-                        <li><a href="/products/valves.html">Valves</a></li>
-                        <li><a href="/products/fastners.html">Fastners</a></li>
-                        <li><a href="/products/gaskets.html">Gaskets</a></li>
-                      </ul>
+                      <a href="/products/pipes.html">Pipes</a>
                     </li>
+
+                    <li>
+                      <a href="/products/fittings.html">Fittings</a>
+                    </li>
+                    <li>
+                      <a href="/products/flanges.html">Flanges</a>
+                    </li>
+                    <li>
+                      <a href="/products/valves.html">Valves</a>
+                    </li>
+                    <li>
+                      <a href="/products/fastners.html">Fastners</a>
+                    </li>
+                    <li>
+                      <a href="/products/gaskets.html">Gaskets</a>
+                    </li>
+
                     <li>
                       <a href="/products/scaffolding-product"
-                        >Scaffolding Products</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/products/plates-structural-steel"
-                        >Plates & Stuructural Steel</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/products/safety-product"
-                        >Industrial Safety Products</a
-                      >
-                    </li>
-                    <li><a href="">Industrial Machines& Tools</a></li>
-                    <li>
-                      <a href="/products/chain-link-fence"
-                        >Chain Link Fence System</a
-                      >
+                        >Scaffolding Products
+                      </a>
                     </li>
                   </ul>
-                  <!-- /.sub-menu -->
                 </li>
+                <!-- /.sub-menu -->
+
                 <li>
                   <a href="project.html">Projects</a>
                   <ul class="sub-menu">
@@ -237,12 +234,25 @@
                 <li>
                   <a href="#">Industry</a>
                   <ul class="sub-menu">
-                    <li><a href="404.html">Error 404</a></li>
-                    <li><a href="coming-soon.html">Coming Soon</a></li>
-                    <li><a href="project.html">Projects</a></li>
-                    <li><a href="single-project.html">Project Details</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="404.html">Construction Sites</a></li>
+                    <li>
+                      <a href="coming-soon.html">Oil Refinery and Fields</a>
+                    </li>
+                    <li><a href="project.html">Fabrication & Skids</a></li>
+                    <li>
+                      <a href="single-project.html"
+                        >Industrial Machines & Tools</a
+                      >
+                    </li>
+                    <li><a href="team.html">Industrial Safety Products</a></li>
+                    <li>
+                      <a href="testimonials.html"
+                        >Plates & Structural Product</a
+                      >
+                    </li>
+                    <li>
+                      <a href="testimonials.html">Chain Link Fence System</a>
+                    </li>
                   </ul>
                   <!-- /.sub-menu -->
                 </li>
@@ -273,7 +283,7 @@
 
       <div class="pipe-banner">
         <div class="container">
-          <h3 style="color: #fe5a0e;">Pipes</h3>
+          <h3 style="color: #fe5a0e">Pipes</h3>
           <ul class="breadcumb">
             <li><a href="/">Home</a></li>
             <!--
@@ -283,7 +293,7 @@
             </li>
             <!--
                 -->
-            <li><span style="color: #fe5a0e;">Pipes</span></li>
+            <li><span style="color: #fe5a0e">Pipes</span></li>
           </ul>
           <!-- /.breadcumb -->
         </div>
@@ -293,37 +303,27 @@
 
       <!-- pipes product details page-->
 
-      <section>
-        <div
-          style="
-            display: flex;
-            padding: 10px;
-            justify-content: space-evenly;
-            margin-top: 80px;
-          "
-        >
+      <section class="sec1">
+        <div  class="pipesec1div" >
           <div>
-            <div style="padding: 10px; margin-left: 80px">
-              <img src="/img/pipe_pg_imges/Pipe_Page_image.jpg" alt="Awesome Image" />
+            <div >
+              <img
+                src="/img/pipe_pg_imges/Pipe_Page_image.jpg"
+                alt="Awesome Image"
+              />
             </div>
           </div>
-          <h1  class="pipes"  style="margin-top: 80px; margin-left: 180px; ">Pipes</h1>
-
-    
 
           <div
             style="
               max-width: 600px;
-              margin-left: 10px;
+              margin-left: 5px;
               padding: 10px;
-              position: relative;
-              top: 80px;
-              right: 120px;
               margin-top: 20px;
               line-height: 30px;
             "
           >
-            <br />
+            <h1 class="pipes" >Pipes</h1>
             <span>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -347,8 +347,8 @@
 
       <section style="margin-top: 50px">
         <div>
-          <h2 style="margin-left: 100px; margin-top: 130px; ">Material used</h2>
-     
+          <h2 style="margin-left: 100px; margin-top: 130px">Material used</h2>
+
           <div>
             <ul
               class="pipe_li"
@@ -371,107 +371,237 @@
         </div>
       </section>
 
-      <section>
+      <section style="height: 110vh">
+        <h2 style="text-align: center; margin-top: 150px">Products Range</h2>
+        <hr
+          style="
+            width: 50%;
+            border: none;
+            height: 1px;
+            background-color: black;
+            text-decoration: dotted !important;
+          "
+        />
+        <div
+          class="card_align"
+          style="
+            margin-top: 80px;
+            margin-bottom: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            position: relative;
+          "
+        >
+          <div class="container py-5" position="relative">
+            <div class="position" style="position: relative">
+              <div class="row g-4" style="position: relative">
+                <div
+                  class="col-md-4 triangle1"
+                  style="position: absolute; left: 0"
+                >
+                  <div class="card modern-card p-3">
+                    <div class="card-body" style="text-align: center">
+                      <h3 class="card-title" style="color: #fe5a0e">hello</h3>
+                      <p class="card-text card-text-align">
+                        <!-- Seamless, Continuous Weld, ERW, SAW, LSAW, HFW, Tubing -->
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-        <h2 style="text-align: center; margin-top: 150px; color: #fe5a0e;">Products Range</h2>
-              <hr style="width: 50%;  border: none;
-  height: 1px;
-  background-color:#fe5a0e ; text-decoration: dotted !important;" />
-        <div  class="card_align " style="margin-top: 80px; margin-bottom: 100px ; display: flex; justify-content: space-evenly; flex-wrap: wrap;">
+                <div
+                  class="col-md-4 triangle2"
+                  style="position: absolute; left: 450px"
+                >
+                  <div class="card modern-card p-3">
+                    <div class="card-body">
+                      <h3 class="card-title" style="color: #fe5a0e"></h3>
+                      <p class="card-text mid-card">
+                        <!-- Varied sizes, dimensions, lengths, and specifications -->
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-   
-            <div class="container py-5">
-    <div class="row g-4">
+                <div
+                  class="col-md-4 triangle3"
+                  style="position: absolute; left: 900px"
+                >
+                  <div class="card modern-card p-3">
+                    <div class="card-body">
+                      <h3 class="card-title" style="color: #fe5a0e"></h3>
+                      <p class="card-text card-text-align">
+                        <!-- Duplex Stainless Steel, Exotic Alloys -->
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      <div class="col-md-4">
-        <div class="card modern-card p-3 ">
-          <div class="card-body">
-            <h5 class="card-title">Types</h5>
-            <p class="card-text">
-            Seamless, Continuous Weld, ERW, SAW, LSAW, HFW, Tubing
-            </p>
+              <div style="position: relative">
+                <div
+                  class="col-md-4 triangle4"
+                  style="position: absolute; top: 250px; left: 215px"
+                >
+                  <div class="card modern-card p-3">
+                    <div class="card-body">
+                      <h3 class="card-title" style="color: #fe5a0e"></h3>
+                      <p class="card-text card-text-align">
+                        <!-- Prompt delivery services -->
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-4 triangle5"
+                  style="position: absolute; top: 250px; left: 665px"
+                >
+                  <div class="card modern-card p-3">
+                    <div class="card-body">
+                      <h3 class="card-title" style="color: #fe5a0e"></h3>
+                      <p class="card-text card-text-align">
+                        <!-- Customized products to meet specific client requirements -->
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="position: relative">
+                <div
+                  class="col-md-4 triangle6"
+                  style="position: absolute; top: 450px; left: 450px"
+                >
+                  <div class="card modern-card p-3">
+                    <div class="card-body text-center">
+                      <h3 class="card-title" style="color: #fe5a0e"></h3>
+                      <p class="card-text card-text-align">
+                        <!-- for onshore and offshore Oil and gas applications -->
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="col-md-4">
-        <div class="card modern-card p-3">
-          <div class="card-body">
-            <h3 class="card-title">Sizes</h3>
-            <p class="card-text">
-             Varied sizes, dimensions, lengths, and specifications
-            </p>
-            <h3>Materials of Construction</h3>
-            <p>Plain Carbon Steels, low temperature grades, high yield grades</p>
-            <h3>Standards</h3>
-            <p>API, ASTM, ASME, ISO,
+      <!-- table creation here  -->
 
-DIN, EN</p>
-          </div>
+      <section style=" margin: 30px ">
+        <h3 style="text-align: center; margin: 40px">Details of Pipes</h3>
+        <h3 style="text-align: center; margin: 40px"></h3>
+
+        <div>
+          <table
+            border="1"
+            cellpadding="10"
+            cellspacing="0"
+            width="95%"
+            style="margin: 0 40px; border: 2px solid black"
+          >
+            <thead>
+              <tr style="background-color: #fe5a0e; color: white">
+                <th>Types</th>
+                <th>Standards</th>
+                <th>Steel Grades</th>
+                <th>Sizes</th>
+                <th>Schedules</th>
+                <th>Thickness</th>
+                <th>Ends</th>
+                <th>Lengths</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Carbon Steel - Seamless Pipes & Low Temperature</td>
+                <td>ASTM, DIN, EN</td>
+                <td>
+                  A333 Gr.6, A106 Gr B/A/C, API 5L X42, X46, X52, X60, X65, X70,
+                  (PSL1 & PSL2), P235GH, P265GH (TC1 & TC2), S355J2H, P355N,
+                  P420N, L245NB, L290NB, ST37.8, ST35.8
+                </td>
+                <td>3/8" to 24" (10.2mm to 610.0mm)</td>
+                <td>
+                  SCH STD, SCH XS, SCH XXS, SCH20, SCH40, SCH60, SCH80, SCH100,
+                  SCH120, SCH140, SCH160
+                </td>
+                <td>1.5mm to 60.0mm</td>
+                <td>Beveled / Plain</td>
+                <td>SRL 5-8m, DRL 9-13m</td>
+              </tr>
+
+              <tr>
+                <td>Carbon Steel - Welded Pipes ERW / LSAW / SPW</td>
+                <td>ASTM, DIN, EN</td>
+                <td>
+                  A333 Gr.6, A106 Gr B/A/C, API 5L X42, X46, X52, X60, X65, X70,
+                  (PSL1 & PSL2), P235GH, P265GH (TC1 & TC2), S355J2H, P355N,
+                  P420N, L245NB, L290NB, ST37.8, ST35.8
+                </td>
+                <td>1/8" to 120" (10.29mm to 3048mm)</td>
+                <td>
+                  Various including SCH STD, SCH XS, SCH XXS, SCH 5S, SCH
+                  10/10S, SCH 20, SCH 30, SCH 40/40S, SCH60, SCH80/80S, SCH 100,
+                  SCH 120, SCH 140, SCH 160
+                </td>
+                <td>1.5mm to 80.0mm</td>
+                <td>Beveled / Plain</td>
+                <td>SRL 5-8m, DRL 9-13m</td>
+              </tr>
+
+              <tr>
+                <td>Carbon Steel - Casing & Tubing</td>
+                <td>API 5CT all specs</td>
+                <td>
+                  J/K55, N80, L80, P110, Q125, C90, T95, L80 13Cr, P110 13Cr,
+                  All grades
+                </td>
+                <td>2 3/8" to 20"</td>
+                <td>—</td>
+                <td>3 mm to 55 mm</td>
+                <td>Beveled / Plain</td>
+                <td>SRL 5-8m, DRL 9-13m</td>
+              </tr>
+
+              <tr>
+                <td>Stainless Steel - Welded Pipes ERW / LSAW / SPW</td>
+                <td>ASTM, DIN, EN</td>
+                <td>
+                  TP304L, TP316L, TP316TI, TP304H, TP310S, TP321H, TP347H,
+                  TP904L, UNS S31803 (DUPLEX), UNS S32760 (SUPER DUPLEX)
+                </td>
+                <td>1/8" to 36" (10.29mm to 914.40mm)</td>
+                <td>
+                  Various including SCH STD, SCH XS, SCH XXS, SCH 5S, SCH
+                  10/10S, SCH 20, SCH 30, SCH 40/40S, SCH60, SCH80/80S, SCH 100,
+                  SCH 120, SCH 140, SCH 160
+                </td>
+                <td>1.5mm to 80.0mm</td>
+                <td>Beveled / Plain</td>
+                <td>SRL 5-8m, DRL 9-13m</td>
+              </tr>
+
+              <tr>
+                <td>Alloy Pipes - Seamless / Boiler Tubes</td>
+                <td>ASTM, DIN, EN</td>
+                <td>
+                  A335-P5, P9, P11, P22, P91, 16Mo3, 13CrMo4-5, 10CrMo9-10,
+                  X11CrMo5, X10CrMoVNb9-1, 20CrMo V11-1
+                </td>
+                <td>1/2" to 24" (10.2mm to 813.0mm)</td>
+                <td>SCH STD - SCH160 / XXS</td>
+                <td>1.5mm to 80.0mm</td>
+                <td>Beveled / Plain</td>
+                <td>SRL 5-8m, DRL 9-13m</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card modern-card p-3">
-          <div class="card-body">
-            <h5 class="card-title">Clean UI</h5>
-            <p class="card-text">
-              Minimal yet elegant design ideal for dashboards, admin panels,
-              and landing pages.
-            </p>
-          </div>
-        </div>
-      </div>
-
-
-
-       <div class="col-md-4">
-        <div class="card modern-card p-3">
-          <div class="card-body">
-            <h5 class="card-title">Clean UI</h5>
-            <p class="card-text">
-              Minimal yet elegant design ideal for dashboards, admin panels,
-              and landing pages.
-            </p>
-          </div>
-        </div>
-      </div>
-
-
-
-       <div class="col-md-4">
-        <div class="card modern-card p-3">
-          <div class="card-body">
-            <h5 class="card-title">Clean UI</h5>
-            <p class="card-text">
-              Minimal yet elegant design ideal for dashboards, admin panels,
-              and landing pages.
-            </p>
-          </div>
-        </div>
-      </div>
-
-
-       <div class="col-md-4">
-        <div class="card modern-card p-3">
-          <div class="card-body">
-            <h5 class="card-title">Clean UI</h5>
-            <p class="card-text">
-              Minimal yet elegant design ideal for dashboards, admin panels,
-              and landing pages.
-            </p>
-          </div>
-        </div>
-      </div>
-
-
-    
-
-    </div>
-  </div>
-
- </div>
-        
       </section>
     </div>
     <!-- /.page-wrapper -->
@@ -561,10 +691,10 @@ DIN, EN</p>
       <div class="bottom-footer">
         <div class="container">
           <div class="left-text pull-left">
-            <p>&copy; Copyright Industrio 2018. All right reserved.</p>
+            <p>&copy; Copyright Krad Global 2026. All right reserved.</p>
           </div>
           <!-- /.left-text -->
-          <div class="right-text pull-right"><p>Created by Themexriver</p></div>
+          <div class="right-text pull-right"><p>Created by Risezonic</p></div>
           <!-- /.right-text -->
         </div>
         <!-- /.container -->
@@ -664,8 +794,8 @@ DIN, EN</p>
           </div>
           <!-- /.social -->
           <p class="copy-text">
-            &copy; 2018 Industrio. <br />
-            made with <i class="fa fa-heart"></i> by themexriver
+            &copy; 2026 Krad Global. <br />
+            made with <i class="fa fa-heart"></i> Created by Risezonic
           </p>
           <!-- /.copy-text -->
         </div>

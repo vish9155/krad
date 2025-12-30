@@ -3596,6 +3596,9 @@ footer.site-footer .bottom-footer p {
   height: 600px;
   background-size: cover;
 }
+
+
+
 .pipe-banner h3, .pipe-banner ul {
   margin: 0;
   padding: 0;
@@ -3633,6 +3636,7 @@ footer.site-footer .bottom-footer p {
 
 
 .fittings-banner {
+  
   text-align: center;
   padding-top: 105px;
   padding-bottom: 50px;
