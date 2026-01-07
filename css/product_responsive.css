@@ -1,66 +1,163 @@
-@media (max-width: 391px) {
+@media (max-width: 575px) {
   .pipe-banner {
     height: auto;
     padding-top: 80px;
     padding-bottom: 80px;
 
-
-  
-  
   }
 
   .pipe_img_div {
+    margin-right: 50px;
+    padding: 20px;
+  }
 
-margin-right: 50px;
-padding: 20px;
+  .pipe_text {
+    margin: 20px;
+  }
 
+  .pipe_text h1 {
+    font-size: 30px;
+    
+  }
 
+  .pipe_text p {
+    font-size: 16px;
+    padding-right: 40px;
+   
+  }
 
+  .pipes {
+    font-size: 14px;
+  }
+
+  .card-section {
+    display: none;
   }
 
 
-.pipe_text{
-  margin: 20px;
-}
+
+  .material{
+
+    display: flex;
+    flex-direction: column ; 
+  }
+
+
+
+  .pipe_ul_div{
+    display: block !important ;
+  }
+
+  .pipe_ul_div li {
+    display: block;
+  }
+
+
+
+  .pipesec1div {
+    display: block;
+    padding: 10px;
+  }
+
+
+
+.container{
+
+  margin-right: 50px;
   
-.pipe_text h1 {
-  font-size: 30px;
 }
 
-.pipe_text p {
-  font-size: 16px;
-padding-right: 10px;
+
 }
 
-.pipes {
+
+
+
+/* BASE – Desktop (default) */
+
+
+/* ---------------- MOBILE (phones) ---------------- */
+@media (max-width: 575px) {
+  h3 {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  .pipe-table {
+    font-size: 12px;
+    min-width: 900px; /* forces horizontal scroll */
+  }
+
+  section {
+    margin: 10px;
+  }
+
+
+
+
+
+}
+
+/* ---------------- TABLET ---------------- */
+@media (min-width: 576px) and (max-width: 991px) {
+  .pipe-table {
+    font-size: 13px;
+    min-width: 1000px;
+  }
+
+  section {
+    margin: 20px;
+  }
+
+
+.mob-cards{
+
+  display: none;
+}
+
+.table-wrapper {
+  width: 95%;
+  overflow-x: auto;
+}
+
+}
+
+/* ---------------- DESKTOP ---------------- */
+@media (min-width: 992px) {
+
+
+
+  .pipe-table {
+  width: 95%;
+  border-collapse: collapse;
   font-size: 14px;
 }
 
-}
-
-.pipesec1div {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 20px;
-  padding-top: 50px;
-
-}
-
-@media (max-width: 391px) {
-  /* .sec1 {
-
-  display: block ;
-  flex-direction: column ;
-  align-items: center ;
- } */
-
-  .pipesec1div {
-  display: block;
+.pipe-table th,
+.pipe-table td {
   padding: 10px;
-
-
-
-  
+  border: 1px solid black;
+  text-align: left;
+  vertical-align: top;
 }
+
+.pipe-table thead {
+  background-color: #fe5a0e;
+  color: white;
+}
+
+/* WRAPPER */
+.table-wrapper {
+  width: 95%;
+  overflow-x: auto;
+}
+
+
+
+
+.mob-cards{
+   display: none;
+}
+
+
 }

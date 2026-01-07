@@ -3676,6 +3676,277 @@ footer.site-footer .bottom-footer p {
 
 
 
+
+
+
+/************************** 
+*  flanges banner style 
+***************************/
+
+
+.flanges-banner {
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 50px;
+  background: #000 url(../img/flanges_pg_img/Flanges.jpg) center center no-repeat;
+  height: 600px;
+  background-size: cover;
+}
+
+
+
+.flanges-banner h3, .flanges-banner ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flanges-banner h3 {
+  font-size: 36px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+.flanges-banner ul.breadcumb li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.flanges-banner ul.breadcumb a, .flanges-banner ul.breadcumb span {
+  color: #FE5A0E;
+  font-size: 18px;
+}
+.flanges-banner ul.breadcumb span.sep {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #FE5A0E;
+}
+.flanges-banner ul.breadcumb span {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************************** 
+*  Valves banner style 
+***************************/
+
+
+.valves-banner {
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 50px;
+  background: #000 url(../img/valves_pg_img/Valvess-1\ \(1\).jpg) center center no-repeat;
+  height: 600px;
+  background-size: cover;
+}
+
+
+
+.valves-banner h3, .valves-banner ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.valves-banner h3 {
+  font-size: 36px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+.valves-banner ul.breadcumb li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.valves-banner ul.breadcumb a, .valves-banner ul.breadcumb span {
+  color: #FE5A0E;
+  font-size: 18px;
+}
+.valves-banner ul.breadcumb span.sep {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #FE5A0E;
+}
+.valves-banner ul.breadcumb span {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/************************** 
+*  fastners banner style 
+***************************/
+
+
+.fastners-banner {
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 50px;
+  background: #000 url(../img/fastners-pg_img/Fastners_Images.jpg) center center no-repeat;
+  height: 600px;
+  background-size: cover;
+}
+
+
+
+.fastners-banner h3, .fastners-banner ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.fastners-banner h3 {
+  font-size: 36px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+.fastners-banner ul.breadcumb li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fastners-banner ul.breadcumb a, .fastners-banner ul.breadcumb span {
+  color: #FE5A0E;
+  font-size: 18px;
+}
+.fastners-banner ul.breadcumb span.sep {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #FE5A0E;
+}
+.fastners-banner ul.breadcumb span {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+/************************** 
+*  scaffolding banner style 
+***************************/
+
+
+.scaffolding-banner {
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 50px;
+  background: #000 url(../img/scaffolding_pg_img/Scaffolding-Prouduct.jpg) center center no-repeat;
+  height: 600px;
+  background-size: cover;
+}
+
+
+
+.scaffolding-banner h3, .scaffolding-banner ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.scaffolding-banner h3 {
+  font-size: 36px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+.scaffolding-banner ul.breadcumb li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.scaffolding-banner ul.breadcumb a, .scaffolding-banner ul.breadcumb span {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.scaffolding-banner ul.breadcumb span.sep {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #FE5A0E;
+}
+.scaffolding-banner ul.breadcumb span {
+  color: #fff;
+}
+
+
+
+
+
+
+/************************** 
+*  gasket banner style 
+***************************/
+
+
+.gasket-banner {
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 50px;
+  background: #000 url(../img/gaskets_pg-img/Gaskets-1\ \(1\).jpg) center center no-repeat;
+  height: 600px;
+  background-size: cover;
+}
+
+
+
+.gasket-banner h3, .gasket-banner ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gasket-banner h3 {
+  font-size: 36px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+.gasket-banner ul.breadcumb li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.gasket-banner ul.breadcumb a, .gasket-banner ul.breadcumb span {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.gasket-banner ul.breadcumb span.sep {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #FE5A0E;
+}
+.gasket-banner ul.breadcumb span {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /************************** 
 * 18. error 404 styles 
 ***************************/
