@@ -3628,6 +3628,54 @@ footer.site-footer .bottom-footer p {
   color: #fff;
 }
 
+/* blog page banner start */
+.blog-banner {
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 50px;
+  background: #000 url(../img/Blogs/industrial-image.jpg) center center no-repeat;
+  height: 600px;
+  background-size: cover;
+}
+
+
+
+.blog-banner h3,
+.blog-banner ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.blog-banner h3 {
+  font-size: 36px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.blog-banner ul.breadcumb li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.blog-banner ul.breadcumb a,
+.blog-banner ul.breadcumb span {
+  color: #FE5A0E;
+  font-size: 18px;
+}
+
+.blog-banner ul.breadcumb span.sep {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #FE5A0E;
+}
+
+.blog-banner ul.breadcumb span {
+  color: #fff;
+}
+/* blog page banner end  */
 
 
 /************************** 
