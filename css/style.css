@@ -3894,46 +3894,59 @@ footer.site-footer .bottom-footer p {
 
 
 .scaffolding-banner {
-  text-align: center;
-  padding-top: 105px;
-  padding-bottom: 50px;
-  background: #000 url(../img/scaffolding_pg_img/Scaffolding-Prouduct.jpg) center center no-repeat;
+  position: relative;
+  display: block;
   height: 600px;
-  background-size: cover;
+  padding-top: 200px;
+  /* controls vertical position of text */
+  text-align: center;
+  background: url("../img/scaffolding_pg_img/Scaffolding-Prouduct.jpg") center center / cover no-repeat;
 }
 
-
-
-.scaffolding-banner h3, .scaffolding-banner ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+/* Overlay */
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
 }
-.scaffolding-banner h3 {
+
+/* Content above overlay */
+.scaffolding-banner .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Heading */
+.scaffolding-banner h1 {
   font-size: 36px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 5px;
 }
+
+/* Breadcrumb */
+.scaffolding-banner ul.breadcumb {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .scaffolding-banner ul.breadcumb li {
   display: inline-block;
-  vertical-align: middle;
 }
-.scaffolding-banner ul.breadcumb a, .scaffolding-banner ul.breadcumb span {
-  color: #FFFFFF;
-  font-size: 18px;
-}
-.scaffolding-banner ul.breadcumb span.sep {
-  margin-left: 10px;
-  margin-right: 10px;
-  color: #FE5A0E;
-}
+
+.scaffolding-banner ul.breadcumb a,
 .scaffolding-banner ul.breadcumb span {
-  color: #fff;
+  font-size: 18px;
+  color: #ffffff;
 }
 
-
+.scaffolding-banner ul.breadcumb .sep {
+  margin: 0 10px;
+  color: #fe5a0e;
+}
 
 
 
@@ -3983,7 +3996,66 @@ footer.site-footer .bottom-footer p {
   color: #fff;
 }
 
+/* .Construction-banner */
 
+
+.Construction-banner {
+  position: relative;
+  display: block;
+  height: 600px;
+  padding-top: 200px;
+  /* controls vertical position of text */
+  text-align: center;
+  background: url("../img/scaffolding_pg_img/Scaffolding-Prouduct.jpg") center center / cover no-repeat;
+}
+
+/* Overlay */
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+/* Content above overlay */
+.Construction-banner .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Heading */
+.Construction-banner h3 {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+/* Breadcrumb */
+.Construction-banner ul.breadcumb {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Construction-banner ul.breadcumb li {
+  display: inline-block;
+}
+
+.Construction-banner ul.breadcumb a,
+.Construction-banner ul.breadcumb span {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.Construction-banner ul.breadcumb .sep {
+  margin: 0 10px;
+  color: #fe5a0e;
+}
+
+
+/* .Construction-banner */
 
 
 
