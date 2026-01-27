@@ -4282,7 +4282,8 @@ footer.site-footer .bottom-footer p {
   text-align: center;
   padding-top: 105px;
   padding-bottom: 50px;
-  background: #000 url(../img/flanges_pg_img/Flanges.jpg) center center no-repeat;
+  background:rgb(189, 186, 186) url(../img/flanges_pg_img/Flanges.jpg) center center no-repeat;
+  background-blend-mode: multiply;
   height: 600px;
   background-size: cover;
 }
@@ -4344,7 +4345,8 @@ footer.site-footer .bottom-footer p {
   text-align: center;
   padding-top: 105px;
   padding-bottom: 50px;
-  background: #000 url(../img/valves_pg_img/Valvess-1\ \(1\).jpg) center center no-repeat;
+  background: gray url(../img/valves_pg_img/Valvess-1\ \(1\).jpg) center center no-repeat;
+  background-blend-mode: multiply;
   height: 600px;
   background-size: cover;
 }
@@ -4405,7 +4407,8 @@ footer.site-footer .bottom-footer p {
   text-align: center;
   padding-top: 105px;
   padding-bottom: 50px;
-  background: #000 url(../img/fastners-pg_img/Fastners_Images.jpg) center center no-repeat;
+  background:gray url(../img/fastners-pg_img/Fastners_Images.jpg) center center no-repeat;
+  background-blend-mode: multiply;
   height: 600px;
   background-size: cover;
 }
@@ -4580,9 +4583,62 @@ footer.site-footer .bottom-footer p {
   padding-top: 200px;
   /* controls vertical position of text */
   text-align: center;
-  background: url("../img/scaffolding_pg_img/Scaffolding-Prouduct.jpg") center center / cover no-repeat;
+  background: url("../img/contruction_banner/construction\ sites.jpg.jpeg") center center / cover no-repeat;
 }
-
+.chain-link{
+   position: relative;
+  display: block;
+  height: 600px;
+  padding-top: 200px;
+  /* controls vertical position of text */
+  text-align: center;
+  background: url("../img/contruction_banner/chain\ link\ fence\ system.jpg.jpeg") center center / cover no-repeat;
+}
+.fabrication{
+   position: relative;
+  display: block;
+  height: 600px;
+  padding-top: 200px;
+  /* controls vertical position of text */
+  text-align: center;
+  background: url("../img/contruction_banner/fabrication\ and\ skids.jpg.jpeg") center center / cover no-repeat;
+}
+.industry-machine{
+   position: relative;
+  display: block;
+  height: 600px;
+  padding-top: 200px;
+  /* controls vertical position of text */
+  text-align: center;
+  background: url("../img/contruction_banner/industrial\ machines\ and\ tools.jpg.jpeg") center center / cover no-repeat;
+}
+.industry-safety{
+   position: relative;
+  display: block;
+  height: 600px;
+  padding-top: 200px;
+  /* controls vertical position of text */
+  text-align: center;
+  background: url("../img/contruction_banner/industrial\ safety\ products.jpg.jpeg") center center / cover no-repeat;
+}
+.oil-refinary{
+   position: relative;
+  display: block;
+  height: 600px;
+  padding-top: 200px;
+  /* controls vertical position of text */
+  text-align: center;
+  background: url("../img/contruction_banner/oil\ refinery\ and\ fields.jpg.jpeg") center center / cover no-repeat;
+}
+.plates{
+   position: relative;
+  display: block;
+  height: 600px;
+  padding-top: 200px;
+  /* controls vertical position of text */
+  text-align: center;
+  background: url("../img/contruction_banner/plates\ &\ structural\ products.jpg.jpeg") center center / cover no-repeat;
+}
 /* Overlay */
 .banner-overlay {
   position: absolute;
