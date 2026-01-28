@@ -4073,6 +4073,11 @@ footer.site-footer .bottom-footer p {
   background-size: cover;
 }
 
+.quality-page{
+   background: gray url(../img/quality/NewQualitycheck.jpg.jpeg) center center no-repeat;
+   background-blend-mode: multiply;
+}
+
 .inner-banner h3,
 .inner-banner ul {
   margin: 0;
@@ -7258,3 +7263,34 @@ body {
 .newimg:hover {
   transform: translateX(-30px);
 }
+.mycolor{
+  color: coral;
+  font-size: 16px;
+}
+
+a:hover{
+  color: coral;
+  text-decoration: underline solid;
+}
+.white{
+  color: gray;
+}
+.about-banner{
+  background: url(/img/quality/about\ us.jpg.jpeg);
+}
+.contact-banner{
+  background: url(/img/quality/Contact\ us.jpg.jpeg);
+}
+.coral-dark {
+  color: #b23a2c; /* dark coral */
+
+}
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem; /* same as gap-4 */
+  color: #f8f9fa; /* Bootstrap text-light */
+}
+
