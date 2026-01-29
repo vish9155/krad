@@ -7279,7 +7279,8 @@ a:hover{
   background: url(/img/quality/about\ us.jpg.jpeg);
 }
 .contact-banner{
-  background: url(/img/quality/Contact\ us.jpg.jpeg);
+  background:gray url(/img/quality/Contact\ us.jpg.jpeg);
+  background-blend-mode: multiply;
 }
 .coral-dark {
   color: #b23a2c; /* dark coral */
@@ -7294,3 +7295,17 @@ a:hover{
   color: #f8f9fa; /* Bootstrap text-light */
 }
 
+.card-hover {
+  transition: 1s ease-in-out;
+ box-shadow: 25px 16px 32px lightgray;
+ z-index:2;
+}
+
+.card-hover:hover {
+  transform: translateX(10px);
+  cursor: pointer;
+  box-shadow:16px 16px 32px coral;
+}
+.address2:hover{
+text-decoration: underline solid black;
+}
