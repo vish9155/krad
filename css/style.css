@@ -272,6 +272,9 @@ body.active-preloader-ovh {
 /************************** 
 * 3. header styles 
 ***************************/
+.header{
+  
+}
 .header-navigation {
   background-color: transparent;
   margin-bottom: 0;
@@ -282,7 +285,7 @@ body.active-preloader-ovh {
 
 .header-navigation .container {
   position: relative;
-  padding-right: 220px;
+  
 }
 
 .header-navigation .container .navbar-header {
@@ -324,7 +327,7 @@ body.active-preloader-ovh {
 .header-navigation .container .main-navigation {
   text-align: left;
   padding: 0;
-  background: #ffffff;
+  background:transparent;
 }
 
 .header-navigation .container .right-side-box {
@@ -426,7 +429,7 @@ body.active-preloader-ovh {
   height: 3px;
   background: #fe5a0e;
   position: absolute;
-  bottom: 0;
+  top:70%;
   left: 0;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
@@ -753,7 +756,7 @@ body.active-preloader-ovh {
 }
 
 .header.header-home-one .stricky-fixed {
-  background-color: transparent;
+  background-color: black;
 }
 
 .header.header-home-one .stricky-fixed .container {
@@ -7308,4 +7311,14 @@ a:hover{
 }
 .address2:hover{
 text-decoration: underline solid black;
+}
+
+.coral{
+  background-color: coral;
+}
+.coral-text{
+ color: coral;
+}
+.coral-text:hover{
+  color: #000;
 }
