@@ -326,7 +326,7 @@ body.active-preloader-ovh {
 
 .header-navigation .container .main-navigation {
   text-align: left;
-  padding: 0;
+  padding-left:120px ;
   background:transparent;
 }
 
@@ -7321,4 +7321,8 @@ text-decoration: underline solid black;
 }
 .coral-text:hover{
   color: #000;
+  cursor: pointer;
+}
+.icon-color{
+color: coral;
 }
