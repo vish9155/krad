@@ -7282,8 +7282,9 @@ a:hover{
   background: url(/img/quality/about\ us.jpg.jpeg);
 }
 .contact-banner{
-  background:gray url(/img/quality/Contact\ us.jpg.jpeg);
+  background:gray url(/img/new/contact\ us.jpg\ \(1\).jpeg);
   background-blend-mode: multiply;
+
 }
 .coral-dark {
   color: #b23a2c; /* dark coral */
