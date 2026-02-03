@@ -11,6 +11,7 @@
     <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
@@ -149,7 +150,9 @@
            </button>
             </div><!-- /.container -->
         </div><!-- /.inner-banner -->
+     
 
+  <p id="status"></p>
         <section class="contact-page sec-pad">
             <div class="container">
                 <div class="sec-title text-center">
@@ -159,6 +162,70 @@
 <p class="text-justify">Call KRAD Global General Trading LLC today to help streamline your sourcing of industrial materials.</p>
 </p>
                 </div><!-- /.sec-title text-center -->
+  <div class="form-box shadow-lg rounded bg-white p-4 position-relative" style="z-index: 9999;">
+  <h3 class="my-3 coral-text text-center fw-bold">Send Your Query</h3>
+
+  <form id="queryForm" >
+
+    <!-- Name -->
+    <div class="mb-3">
+      <input
+        type="text"
+        class="input1 form-control"
+        name="name"
+        placeholder="Your Name"
+        required
+      >
+      <div class="invalid-feedback">Please enter your name</div>
+    </div>
+
+    <!-- Email -->
+    <div class="mb-3">
+      <input
+        type="email"
+        class="input1 form-control"
+        name="email"
+        placeholder="Your Email"
+        required
+      >
+      <div class="invalid-feedback">Please enter a valid email</div>
+    </div>
+ <div class="mb-3">
+      <input
+        type="tel"
+        class="input1 form-control"
+        name="phone"
+        placeholder="Your Phone Number "
+        required
+      >
+      <div class="invalid-feedback">Please enter your phone number</div>
+    </div>
+    <!-- Message -->
+    <div class="mb-3">
+      <textarea
+        class="textarea1 form-control"
+        name="message"
+        placeholder="Your Message"
+        rows="4"
+        required
+      ></textarea>
+      <div class="invalid-feedback">Please write your message</div>
+    </div>
+
+    <!-- Button -->
+    <button
+      type="submit"
+      class="button1 btn btn-primary w-100 d-flex align-items-center justify-content-center gap-2"
+    >
+      <span class="btn-text">Send</span>
+      <span class="spinner-border spinner-border-sm d-none" role="status"></span>
+    </button>
+
+  </form>
+
+  <p id="status" class="text-center mt-3 fw-semibold"></p>
+</div>
+
                 <div class="row">
                     <div class="col-md-6">
                         <div class="" id="">
@@ -207,7 +274,7 @@
                                 <div style="display: flex;">
                                     <div
                                         style="width: 50px; height:50px ;border-radius:50%; background:rgb(250, 69, 4);position:relative">
-                                        <i class="bi bi-geo-alt  text-center my-5 text-light fs-1"
+                                        <i class="bi bi-telephone  text-center my-5 text-light fs-1"
                                             style="position: absolute;top:-18px; margin-left:13px"></i>
                                     </div><span class="ms-4 mt-3 fs-1">Phone :-</span>
                                 </div>
@@ -310,10 +377,10 @@
             </div><!-- /.contianer -->
         </section><!-- /.contact-info-style-one -->
 
-    </div><!-- /.page-wrapper -->
+    </div>/.page-wrapper
 
   
-   <footer class="site-footer fixed-footer">
+   <footer class="site-footer fix">
     <div class="main-footer">
       <div class="container">
         <div class="row">
@@ -590,7 +657,7 @@
     </div>
 
     <div class="scroll-to-top scroll-to-target" data-target="html"><i class="fa fa-angle-up"></i></div>
-
+<script src="script.js"></script>
     <script src="js/jquery.js"></script>
 
     <script src="js/bootstrap.min.js"></script>

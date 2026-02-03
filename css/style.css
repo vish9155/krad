@@ -7327,3 +7327,26 @@ text-decoration: underline solid black;
 .icon-color{
 color: coral;
 }
+.bgcoral{
+  background-color: coral;
+  opacity: 0.7;
+}
+.form-box {
+      max-width: 400px;
+      background: #fff;
+      padding: 20px;
+      margin: 50px auto;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    }
+    .input1, .textarea1,.button1 {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .button1 {
+      background: #0d6efd;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
