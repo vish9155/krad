@@ -4538,7 +4538,7 @@ footer.site-footer .bottom-footer p {
   text-align: center;
   padding-top: 105px;
   padding-bottom: 50px;
-  background: #000 url(../img/gaskets_pg-img/Gaskets-1\ \(1\).jpg) center center no-repeat;
+  background: #000 url(../img/new2/Banner\ for\ gaskets.jpg.jpeg) center center no-repeat;
   height: 600px;
   background-size: cover;
 }
@@ -4593,6 +4593,16 @@ footer.site-footer .bottom-footer p {
   text-align: center;
   background: url("../img/contruction_banner/construction\ sites.jpg.jpeg") center center / cover no-repeat;
 }
+.Explosition-banner {
+  position: relative;
+  display: block;
+  height: 600px;
+  padding-top: 200px;
+  /* controls vertical position of text */
+  text-align: center;
+  background: url("/img/new2/Banner7.jpeg") center center / cover no-repeat;
+}
+
 
 .chain-link {
   position: relative;
