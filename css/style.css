@@ -7360,3 +7360,8 @@ color: coral;
       border: none;
       cursor: pointer;
     }
+
+    .our-vision-box{
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px ;
+    }
