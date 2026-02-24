@@ -4407,15 +4407,15 @@ footer.site-footer .bottom-footer p {
 
 
 /************************** 
-*  fastners banner style 
+*  fasteners banner style 
 ***************************/
 
 
-.fastners-banner {
+.fasteners-banner {
   text-align: center;
   padding-top: 105px;
   padding-bottom: 50px;
-  background: gray url(../img/fastners-pg_img/Fastners_Images.jpg) center center no-repeat;
+  background: gray url(../img/fasteners-pg_img/fasteners_Images.jpg) center center no-repeat;
   background-blend-mode: multiply;
   height: 600px;
   background-size: cover;
@@ -4423,14 +4423,14 @@ footer.site-footer .bottom-footer p {
 
 
 
-.fastners-banner h3,
-.fastners-banner ul {
+.fasteners-banner h3,
+.fasteners-banner ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.fastners-banner h3 {
+.fasteners-banner h3 {
   font-size: 36px;
   font-family: 'Poppins';
   font-weight: 600;
@@ -4438,24 +4438,24 @@ footer.site-footer .bottom-footer p {
   margin-bottom: 5px;
 }
 
-.fastners-banner ul.breadcumb li {
+.fasteners-banner ul.breadcumb li {
   display: inline-block;
   vertical-align: middle;
 }
 
-.fastners-banner ul.breadcumb a,
-.fastners-banner ul.breadcumb span {
+.fasteners-banner ul.breadcumb a,
+.fasteners-banner ul.breadcumb span {
   color: #FE5A0E;
   font-size: 18px;
 }
 
-.fastners-banner ul.breadcumb span.sep {
+.fasteners-banner ul.breadcumb span.sep {
   margin-left: 10px;
   margin-right: 10px;
   color: #FE5A0E;
 }
 
-.fastners-banner ul.breadcumb span {
+.fasteners-banner ul.breadcumb span {
   color: #fff;
 }
 
